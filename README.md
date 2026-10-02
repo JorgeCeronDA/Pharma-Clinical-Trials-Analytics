@@ -249,24 +249,16 @@ Pharma-Clinical-Trials-Analytics/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── .env.example
 │
 ├── sql/
 │   └── clinical_trials_analysis.sql
 │
 ├── powerbi/
+│   └── Pharma_Clinical_Trials_Dashboard.pbix
 │
-├── images/
-│
-└── data/
-    ├── raw/
-    └── processed/
-```
-
-Raw and processed datasets are excluded from the repository because they are
-generated locally during the analytical workflow.
-
----
+└── images/
+    ├── dashboard_overview.png
+    └── clinical_geographic_landscape.png---
 
 ## Reproducing the Analysis
 
@@ -281,6 +273,9 @@ when a local raw snapshot is not available.
 
 PostgreSQL is required to reproduce the SQL section of the analysis.
 
+The PostgreSQL connection parameters in the notebook should be adjusted
+to match the user's local PostgreSQL configuration before running the
+SQL section.
 ---
 
 ## SQL Analysis
