@@ -296,23 +296,25 @@ from the Jupyter Notebook.
 
 ---
 
-## Dashboard
+### Dashboard
 
-The Power BI dashboard provides two complementary analytical views:
+The Power BI dashboard provides two complementary analytical views.
 
-### Clinical Trials Portfolio Overview
+### Clinical Trials Overview
 
 High-level exploration of the clinical trial portfolio by sponsor, phase,
 study year and outcome.
+
+![Clinical Trials Overview](images/dashboard_overview.png)
 
 ### Clinical & Geographic Landscape
 
 Exploration of therapeutic areas, enrollment, trial duration and geographic
 distribution.
 
-Dashboard screenshots and the Power BI project file are available in the
-`images/` and `powerbi/` directories.
+![Clinical & Geographic Landscape](images/clinical_geographic_landscape.png)
 
+The complete Power BI project file is available in the `powerbi/` directory.
 ---
 
 ## Author
