@@ -2,6 +2,7 @@
 Pharma & Clinical Trials Analytics
 SQL Analysis
 
+
 Data source: ClinicalTrials.gov
 Analytical database: PostgreSQL
 Schema: pharma_trials
