@@ -6,4 +6,4 @@ seaborn
 SQLAlchemy
 psycopg2-binary
 jupyter
-python-dotenv
+
