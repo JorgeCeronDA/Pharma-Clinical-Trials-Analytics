@@ -258,7 +258,10 @@ Pharma-Clinical-Trials-Analytics/
 │
 └── images/
     ├── dashboard_overview.png
-    └── clinical_geographic_landscape.png---
+    └── clinical_geographic_landscape.png
+```
+
+---
 
 ## Reproducing the Analysis
 
@@ -276,6 +279,7 @@ PostgreSQL is required to reproduce the SQL section of the analysis.
 The PostgreSQL connection parameters in the notebook should be adjusted
 to match the user's local PostgreSQL configuration before running the
 SQL section.
+
 ---
 
 ## SQL Analysis
@@ -310,11 +314,13 @@ distribution.
 ![Clinical & Geographic Landscape](images/clinical_geographic_landscape.png)
 
 The complete Power BI project file is available in the `powerbi/` directory.
+
 ---
 
 ## Author
 
 **Jorge Cerón**
+
 
 Data Analyst with a background in diagnostic biochemistry, biomedicine,
 molecular biotechnology and human genetics/genomics.
